@@ -1,0 +1,120 @@
+body{
+	background-color: #00CCFF;
+	background-image: url(../img/denim.png);
+	color: white;
+	font-size: 21px;
+	font-family: 'Times New Roman', Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+}
+
+p {
+	color: blue;
+}
+
+h1 {
+	font-size: 70px;
+	color: purple;
+	font-family: Rockwell,Courier Bold,Courier,Georgia,Times,Times New Roman,serif;
+
+	margin-bottom: 0px;
+}
+
+h2{
+	margin-top: 0px;
+}
+
+p{
+	margin-top: 0px;
+  margin-bottom: 20px;
+
+	line-height: 1.25;
+	font-size: 30px;
+	color: cyan;|
+}
+
+a:link{
+	color: white;
+  text-decoration: none;
+}
+
+a:visited{
+	color: pink;
+}
+
+a:hover{
+	color: purple;
+
+}
+
+a:active{
+	color: blue;
+}
+
+/*PSEDUO CLASSES are special states for our selectors.
+
+selector:pseudo{
+property:value
+}
+*/
+
+/*Pseudo classes order:
+
+-link
+-visited
+-hover
+-active
+-focus
+
+always in that order because CSS reads it in that way,
+from top to botttom*/
+
+
+
+
+
+/* The CSS Box Model have three different parts:
+
+-margin: empty space around my element. Por fuera del borde.
+-border: a border around my element. Por fuera del contenido.
+-padding: empty space with background between my element (content) and the border.
+
+
+
+All of these ADD on top the width and height! */
+
+.box {
+	background: pink;
+	width: 300px;
+
+/*en CSS el orden en que se escriben las propiedades importan,
+por eso se llama Hoja de Estilo en Cascada,
+porque el orden aplica de manera vertical,
+de arriba hacia abajo*/
+
+	margin: 100px;
+    border: 10px solid red;
+    padding: 10px 100px;
+           /*top right bottom left*,
+           o en el sentido de las agujas del reloj*/
+           /* padding:100px 50px;
+                       top   left
+                       bottom right*/
+
+
+background-image: url(../img/descarga.jpeg);
+background-size: cover;
+background-position: center;
+}
+
+
+/* Orden de display en pantalla:
+
+1. Box
+2.Padding
+3.Border
+4.Margin
+
+No importa en que orden se escriban, siempre se van a mostrar en ese orden
+en especifico.
+*/
+
+/* (../folder) means go back, then go into folder*/
